@@ -17,7 +17,7 @@
 ## How to use this image
 
 ### Starting Groovysh
-`docker run -it --rm --name groovy groovy:latest`
+`docker run -it --rm --name groovy mobi3006/docker-groovy`
 
 ### Running a Groovy script
 `docker run --rm -v "$PWD":/scripts -w /scripts --name groovy mobi3006/docker-groovy:latest groovy <script> <script-args>`
