@@ -1,5 +1,7 @@
 # docker-groovy
 
+Test it
+
 ## Supported tags and respective Dockerfile links
 * [jdk7](https://github.com/groovy/docker-groovy/blob/master/jdk7/Dockerfile)
 * [jdk7-alpine](https://github.com/groovy/docker-groovy/blob/master/jdk7-alpine/Dockerfile)
