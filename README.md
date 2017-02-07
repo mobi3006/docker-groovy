@@ -20,7 +20,7 @@
 `docker run -it --rm --name groovy groovy:latest`
 
 ### Running a Groovy script
-`docker run --rm -v "$PWD":/scripts -w /scripts --name groovy groovy:latest groovy <script> <script-args>`
+`docker run --rm -v "$PWD":/scripts -w /scripts --name groovy mobi3006/docker-groovy:latest groovy <script> <script-args>`
 
 ## Instructions for a new Groovy release
 1. Change `ENV GROOVY_VERSION` in all Dockerfiles to new version number.
